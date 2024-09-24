@@ -9,6 +9,7 @@ body {
 }
 
 .headline {
+    width: 100%;
     padding: 20px;
     margin-bottom: 25px;
     background-color: rgba(73, 163, 37, 0.822);
@@ -49,7 +50,22 @@ body {
 
 /*---------------------------CAROUSEL--------------------------------*/
 
-#carousel-cat-gallery {
-    width: 70%;
-    height: 300px;
+.slide-gallery {
+    /*width: 70%; */
+    height: 200px;
+    margin-bottom: 100px;
 }
+
+#slide-galleries-container { /*FIND SOME WAY TO SET THE GAPS WELL IN BOOTSTRAP*/
+    background-color: rgb(191, 160, 219);
+    padding: 20px 30px;
+    padding-bottom: 90px;
+}
+
+
+/* #slide-galleries-container::after, #slide-galleries-container:last-child:after  {
+    content: "";
+} */
+
+/*---------------------------INDICATORS--------------------------------*/
+
